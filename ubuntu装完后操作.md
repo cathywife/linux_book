@@ -1,8 +1,6 @@
 *修改源: http://mirrors.163.com/.help/ubuntu.html
 
-*更新软件:
-*apt-get update
-*apt-get upgrade 
+*更新软件: apt-get update  apt-get upgrade 
 
 *安装pip: sudo apt-get install python-pip python-dev build-essential 
 
