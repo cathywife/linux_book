@@ -13,7 +13,7 @@ master process主进程可以看到php-fpm的配置文件路径<br/>
 有个配置是include=/etc/php5/fpm/pool.d/*.conf<br/>
 所以配置文件目录: /etc/php5/fpm/pool.d/www.conf<br/>
 <code> rlimit_core = unlimited </code><br/>
-重启php-fpm： <pre>sudo kill -9 $(ps -ef|grep php-fpm|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')</pre><br/>
+重启php-fpm： <code>sudo kill -9 $(ps -ef|grep php-fpm|gawk '$0 !~/grep/ {print $2}' |tr -s '\n' ' ')</code><br/>
 然后在/tmp/目录下就可以找到code文件<br/>
-<pre><code>sudo gdb php5-fpm /tmp/core-xxx.xxx</code></pre><br/>
+<code>sudo gdb php5-fpm /tmp/core-xxx.xxx</code><br/>
 这样就可以看到php5-fpm哪里出问题了<br/>
