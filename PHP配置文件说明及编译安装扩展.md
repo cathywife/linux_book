@@ -1,4 +1,5 @@
-ubuntu 存储目录/etc/php5<br/>
+ubuntu下<br/>
+php配置存储目录/etc/php5<br/>
 进去后会有三个目录cli、fpm、mods-available<br/>
 cli: 如果你使用命令行执行php，那么加载的php.ini是这边的<br/>
 fpm: 如果你用php-fpm,那么php.ini就是在/etc/php5/fpm/php.ini<br/> 
