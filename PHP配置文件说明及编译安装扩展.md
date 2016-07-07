@@ -23,6 +23,8 @@ phpize
 make
 make install
 </code><br/>
+![xdebug编译完成](/image/xdebug_compile.png)
+
 编译完成后会显示so文件生成目录和 PHP扩展存放目录<br/>
 一般生成的 xxx.so文件在 xdebug-2.2.5/modules/xxx.so ,也就是你编译目录的modules文件夹下<br/>
 扩展目录: /usr/lib/php5/20121212/<br/>
