@@ -1,5 +1,7 @@
-指定utf8: CREATE DATABASE `xxx` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-指定gbk: <code>CREATE DATABASE `xxx` DEFAULT CHARACTER SET gbk COLLATE gbk_chinese_ci;</code><br/>
+指定utf8: 
+    CREATE DATABASE `xxx` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+指定gbk: 
+    CREATE DATABASE `xxx` DEFAULT CHARACTER SET gbk COLLATE gbk_chinese_ci;
 <br/>
 创建用户: <br/>
 <code>create user xxxusername IDENTIFIED by 'xxxpwd';</code><br/><br/>
