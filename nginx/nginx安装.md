@@ -1,6 +1,10 @@
+<h3>源安装</h3>
+add-apt-repository ppa:nginx/stable
+apt-get update
+apt-get install nginx
+
 查看编译参数: <code>nginx -V </code>
-<br/>
-<br/>
+<h3>编译安装</h3>
 步骤1:
 <pre><code> 
 ./configure 
