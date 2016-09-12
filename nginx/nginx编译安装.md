@@ -4,7 +4,8 @@
 步骤1:
 <pre><code> 
 ./configure 
---with-cc-opt='-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2'  --with-ld-opt='-Wl,-Bsymbolic-functions -Wl,-z,relro' 
+--with-cc-opt='-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2' 
+--with-ld-opt='-Wl,-Bsymbolic-functions -Wl,-z,relro' 
 --prefix=/usr/share/nginx 
 --conf-path=/etc/nginx/nginx.conf 
 --http-log-path=/var/log/nginx/access.log 
