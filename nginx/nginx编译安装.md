@@ -1,7 +1,8 @@
 查看编译参数: <code>nginx -V </code>
 <br/>
 <br/>
-步骤1:<code> 
+步骤1:
+<pre><code> 
 ./configure 
 --with-cc-opt='-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2' --with-ld-opt='-Wl,-Bsymbolic-functions -Wl,-z,relro' 
 --prefix=/usr/share/nginx 
@@ -31,7 +32,7 @@
 --with-http_xslt_module 
 --with-mail 
 --with-mail_ssl_module 
-</code>
+</code></pre>
 <br/>
 <br/>
 步骤2:<code>
