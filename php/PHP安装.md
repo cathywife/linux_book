@@ -8,5 +8,5 @@ add-apt-repository ppa:ondrej/php
 apt-get update  
 apt-get install  php5.6  
 apt-get install  php5.6-fpm  
-apt-get install  php5.6-curl php5.6-gd php5.6-mcrypt php5.6-mysql php5.6-memcache php5.6-json php5.6-xml php5.6-mbstring
+apt-get install  php5.6-curl php5.6-gd php5.6-mcrypt php5.6-mysql php5.6-memcache php5.6-json php5.6-xml php5.6-mbstring php5.6-zip
 </code></pre>
