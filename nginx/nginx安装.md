@@ -1,4 +1,6 @@
 <h3>源安装</h3>
+注意事项：
+1.需要彻底删除原来的nginx: <a href="http://blog.csdn.net/u010571844/article/details/50819704">http://blog.csdn.net/u010571844/article/details/50819704</a>
 <pre>
 add-apt-repository ppa:nginx/stable
 apt-get update
