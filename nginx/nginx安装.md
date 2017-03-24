@@ -7,9 +7,12 @@ apt-get update
 apt-get install nginx
 </pre>
 
+<br/>
+apt-get install libxml2  <br/>
+apt-get install libxslt1-dev  <br/>
+apt-get install libgd-dev <br/>
+apt-get install libgeoip-dev <br/>
 
-apt-get install libxml2  
-apt-get install libxslt1-dev  
 
 
 查看编译参数: <code>nginx -V </code>
