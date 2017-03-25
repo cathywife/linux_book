@@ -1,6 +1,8 @@
 # vimrc
 my vimrc conf
 
+<p>apt-vim: <a href="https://github.com/egalpin/apt-vim">https://github.com/egalpin/apt-vim</a></P>
+
 <p>1.<a href="https://github.com/tpope/vim-pathogen" title="vim-pathogen">vim-pathogen</a></P>
 <p>2.<a href="https://github.com/scrooloose/nerdtree" title="nerdtree">nerdtree</a></P>
 <p>3.<a href="https://github.com/tomasr/molokai" title="molokai">molokai</a></P>
