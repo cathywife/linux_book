@@ -14,9 +14,11 @@ apt-get install libgd-dev <br/>
 apt-get install libgeoip-dev <br/>
 
 
-安装包<a href="http://nginx.org/download/">http://nginx.org/download/</a><br/>
 查看编译参数: <code>nginx -V </code>
 <h3>编译安装</h3>
+
+安装包<a href="http://nginx.org/download/">http://nginx.org/download/</a><br/>
+
 步骤1:
 <pre><code> 
 ./configure \
