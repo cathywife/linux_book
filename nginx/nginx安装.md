@@ -12,8 +12,9 @@ apt-get install libxml2  <br/>
 apt-get install libxslt1-dev  <br/>
 apt-get install libgd-dev <br/>
 apt-get install libgeoip-dev <br/>
-apt-get install libpcre3 libpcre3-dev
-apt-get install openssl libssl-dev
+apt-get install libpcre3 libpcre3-dev <br/>
+apt-get install openssl libssl-dev <br/>
+apt-get install libgeoip-dev <br/>
 
 查看编译参数: <code>nginx -V </code>
 <h3>编译安装</h3>
