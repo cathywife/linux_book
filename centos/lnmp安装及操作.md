@@ -20,3 +20,4 @@ enabled=1
 yum makecache 
 yum install nginx
 </code></pre>
+配置:<a href="https://github.com/linjianzao/linux_book/tree/master/nginx">https://github.com/linjianzao/linux_book/tree/master/nginx</a>
