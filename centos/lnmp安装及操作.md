@@ -32,8 +32,8 @@ service mysqld start
 
 root默认密码:vim /var/log/mysqld.log 文件里搜password
 设置密码长度: set global validate_password_length = 0;
-设置密码强:   set global  validate_password_policy = 0;
-
+设置密码强:   set global  validate_password_policy = 0;
+开放3306mysql端口: iptables -I INPUT -p tcp --dport 3306 -j ACCEPT
 
 
 </code></pre>
