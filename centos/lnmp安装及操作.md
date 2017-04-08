@@ -31,6 +31,10 @@ yum install mysql-community-server
 service mysqld start
 
 root默认密码:vim /var/log/mysqld.log 文件里搜password
+设置密码长度: set global validate_password_length = 0;
+设置密码强:   set global  validate_password_policy = 0;
+
+
 
 </code></pre>
 参考:<a href="http://www.cnblogs.com/ccooler/p/4367718.html">http://www.cnblogs.com/ccooler/p/4367718.html</a> <br/>
