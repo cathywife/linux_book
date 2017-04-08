@@ -31,3 +31,4 @@ yum install mysql-community-server
 service mysqld start
 </code></pre>
 参考:<a href="http://www.cnblogs.com/ccooler/p/4367718.html">http://www.cnblogs.com/ccooler/p/4367718.html</a>
+配置:<a href="https://github.com/linjianzao/linux_book/tree/master/mysql">https://github.com/linjianzao/linux_book/tree/master/mysql</a>
