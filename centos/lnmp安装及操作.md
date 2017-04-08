@@ -21,3 +21,13 @@ yum makecache
 yum install nginx
 </code></pre>
 配置:<a href="https://github.com/linjianzao/linux_book/tree/master/nginx">https://github.com/linjianzao/linux_book/tree/master/nginx</a>
+
+<br/>
+<h3>mysql最新版本:</h3>
+<pre><code>
+wget http://repo.mysql.com/mysql57-community-release-el6-9.noarch.rpm
+yum localinstall mysql57-community-release-el6-9.noarch.rpm 
+yum install mysql-community-server
+service mysqld start
+</code></pre>
+参考:<a href="http://www.cnblogs.com/ccooler/p/4367718.html">http://www.cnblogs.com/ccooler/p/4367718.html</a>
