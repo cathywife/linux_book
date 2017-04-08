@@ -1,4 +1,4 @@
-<h5>php7.1:</h5>
+<h3>php7.1:</h3>
 <pre><code>
 rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 yum makecache
