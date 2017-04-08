@@ -29,6 +29,9 @@ wget http://repo.mysql.com/mysql57-community-release-el6-9.noarch.rpm
 yum localinstall mysql57-community-release-el6-9.noarch.rpm 
 yum install mysql-community-server
 service mysqld start
+
+root默认密码:vim /var/log/mysqld.log 文件里搜password
+
 </code></pre>
 参考:<a href="http://www.cnblogs.com/ccooler/p/4367718.html">http://www.cnblogs.com/ccooler/p/4367718.html</a> <br/>
 配置:<a href="https://github.com/linjianzao/linux_book/tree/master/mysql">https://github.com/linjianzao/linux_book/tree/master/mysql</a>
